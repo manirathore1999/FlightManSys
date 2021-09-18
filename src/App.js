@@ -11,7 +11,7 @@ import AddFlight from './components/AddFlight';
 import Register from './components/Register';
 import Login from './components/Login';
 import BookList from './components/BookList';
-
+import DetailPage from './components/DetailsPage';
 
 
 function App() {
@@ -23,7 +23,8 @@ function App() {
           <Route path="/addflight" exact component = {AddFlight}> </Route>
           <Route path="/list" exact component = {ListofFlights}> </Route>
           <Route path="/book" exact component = {BookList}></Route>
-          <Route path="/searchFlights" exact component = {Searching}> </Route>
+          <Route path="/details" exact component = {DetailPage}></Route>
+          <Route path="/searchFlights" exact component = {Searching}></Route>
           <Route path="/register" exact component = {Register}> </Route>
           <Route path="/login" exact component = {Login}> </Route>
 
